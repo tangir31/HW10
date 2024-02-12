@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrap {
+    width: 1200px;
+    padding-inline: 24px;
+    margin: 0 auto;
+}
+
+.promo {
+    height: 789px;
+    background: url(../img/promo-bg.jpg) no-repeat center / cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 26px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.promo h1 {
+    color: white;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 43px 0 103px;
+}
+
+.btn {
+    width: 230px;
+    height: 50px;
+    border-radius: 60px;
+    background: linear-gradient(93deg, #0499DD 0%, #17C1BC 100%);
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+    border: none;
+
+}
+
+.tour {
+    padding-block: 90px 110px;
+}
+
+.tour h2 {
+    color: #0499DD;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 38px;
+}
+
+.tour_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.tour_item {
+    color: white;
+    background-size: cover;
+    padding: 211px 16px 42px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.tour_item::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.tour_item h3 {
+    color: var(--yellow, #FFC700);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 2px 10px;
+}
+
+.tour_item .text {
+    margin-bottom: 20px;
+}
+
+.tour_item .btn {
+    width: 160px;
+    height: 40px;
+}
+
+.about {
+    background: url(../img/about-bg.jpg) no-repeat center / cover;
+    padding-block: 136px;
+
+}
+
+.white_box {
+    width: 542px;
+    border-radius: 10px;
+    background: var(--gray-2,  #EDEDED);
+    padding: 60PX 80PX 80PX;
+    margin: 0 auto;
+}
+
+.white_box {
+    margin-bottom: 20pxz;
+}
+
+.white_box h2 {
+    color: #0499DD;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    font-style: normal;
+    margin-bottom: 40px;
+}
